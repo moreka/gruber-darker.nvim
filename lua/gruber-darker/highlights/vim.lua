@@ -253,7 +253,7 @@ M.highlights.md_code_delim = Highlight.new("markdownCodeDelimiter", { fg = c.bro
 M.highlights.md_error = Highlight.new("markdownError", { fg = c.fg, bg = c["bg+1"] })
 
 M.highlights.md_h1 = Highlight.new("@text.title.1.markdown", { fg = c.quartz, bold=true })
-M.highlights.md_quote = Highlight.new("@text.quote.markdown", { fg = c.wisteria, italic =true })
+M.highlights.md_quote = Highlight.new("@text.quote.markdown", { fg = c["green-1"], italic =true })
 M.highlights.md_punc = Highlight.new("@punctuation.special.markdown", { fg = c.yellow })
 
 -- Quickfix

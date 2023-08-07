@@ -19,6 +19,7 @@ M = {
 	red = Color.new(0xf43841),
 	["red+1"] = Color.new(0xff4f58),
 	green = Color.new(0x73d936),
+  ["green-1"] = Color.new(0x6F8F6F),
 	yellow = Color.new(0xffdd33),
 	brown = Color.new(0xcc8c3c),
 	quartz = Color.new(0x95a99f),
