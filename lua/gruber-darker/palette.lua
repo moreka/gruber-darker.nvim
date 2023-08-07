@@ -26,6 +26,7 @@ M = {
 	["niagara-1"] = Color.new(0x565f73),
 	niagara = Color.new(0x96a6c8),
 	wisteria = Color.new(0x9e95c7),
+  mygray = Color.new(0x928374),
 }
 
 return M

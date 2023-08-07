@@ -214,4 +214,9 @@ M.highlights.tag_attribute = Highlight.new("@tag.attribute", { link = M.highligh
 ---XML tag delimiters
 M.highlights.tag_delimiter = Highlight.new("@tag.delimiter", { link = vim_hl.delimiter })
 
+-- Others
+
+M.highlights.python_docstring = Highlight.new("@string.documentation.python", { fg = c.mygray, italic = true })
+M.highlights.neorg_title = Highlight.new("@neorg.headings.1.title.norg", { link = M.highlights.text_title })
+
 return M
