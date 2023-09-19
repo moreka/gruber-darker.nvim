@@ -135,8 +135,7 @@ M.highlights.type_definition = Highlight.new("@type.definition", { link = vim_hl
 ---modifiers that affect storage in memory or life-time
 M.highlights.storage_class = Highlight.new("@storageclass", { link = vim_hl.storage_class })
 ---attribute annotations (e.g. Python decorators)
--- I don't think this is supported anymore...
--- M.highlights.attribute = Highlight.new("@attribute", { link = gruber_hl.brown })
+M.highlights.attribute = Highlight.new("@attribute", { link = gruber_hl.brown })
 ---object and struct fields
 M.highlights.field = Highlight.new("@field", { link = gruber_hl.niagara })
 ---similar to `@field`
