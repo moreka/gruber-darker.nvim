@@ -17,5 +17,6 @@ M.highlights.tex_delim = Highlight.new("texDelim", { fg = c.quartz })
 M.highlights.tex_url = Highlight.new("texUrlArg", { fg = c.niagara, underline = true })
 M.highlights.tex_ref = Highlight.new("texRefArg", { fg = c.niagara, underline = true })
 M.highlights.tex_title = Highlight.new("texPartArgTitle", { fg = c.green, bold = true })
+M.highlights.tex_mathenv_argname = Highlight.new("texMathEnvArgName", { fg = c.quartz })
 
 return M
