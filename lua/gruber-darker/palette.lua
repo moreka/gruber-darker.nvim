@@ -4,7 +4,7 @@ local M = {}
 ---@type table<string, Color>
 M = {
 	none = Color.none(),
-	fg = Color.new(0xe4e4e4),
+	fg = Color.new(0xe4e4ef),
 	["fg+1"] = Color.new(0xf4f4ff),
 	["fg+2"] = Color.new(0xf5f5f5),
 	white = Color.new(0xffffff),
@@ -29,5 +29,31 @@ M = {
 	wisteria = Color.new(0x9e95c7),
   mygray = Color.new(0x928374),
 }
+
+
+--	none = Color.none(),
+--	fg = Color.new(#e4e4e4),
+--	["fg+1"] = Color.new(#f4f4ff),
+--	["fg+2"] = Color.new(#f5f5f5),
+--	white = Color.new(#ffffff),
+--	black = Color.new(#000000),
+--	["bg-1"] = Color.new(#101010),
+--	bg = Color.new(#181818),
+--	["bg+1"] = Color.new(#282828),
+--	["bg+2"] = Color.new(#453d41),
+--	["bg+3"] = Color.new(#484848),
+--	["bg+4"] = Color.new(#52494e),
+--	["red-1"] = Color.new(#c73c3f),
+--	red = Color.new(#f43841),
+--	["red+1"] = Color.new(#ff4f58),
+--	green = Color.new(#73d936),
+--	yellow = Color.new(#ffdd33),
+--	brown = Color.new(#cc8c3c),
+--	quartz = Color.new(#95a99f),
+--	["niagara-2"] = Color.new(#303540),
+--	["niagara-1"] = Color.new(#565f73),
+--	niagara = Color.new(#96a6c8),
+--	wisteria = Color.new(#9e95c7),
+--  mygray = Color.new(#928374),
 
 return M

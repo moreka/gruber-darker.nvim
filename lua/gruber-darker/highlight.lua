@@ -1,24 +1,24 @@
 ---@class HighlightOpts
----@field fg Color foreground
----@field bg Color background
----@field sp Color special
----@field blend integer value between 0 and 100
----@field bold boolean
----@field standout boolean
----@field underline boolean
----@field undercurl boolean
----@field underdouble boolean
----@field underdotted boolean
----@field underdashed boolean
----@field strikethrough boolean
----@field italic boolean
----@field reverse boolean
----@field nocombine boolean
----@field link Highlight
----@field default any Don't override existing definition
----@field ctermfg any
----@field ctermbg any
----@field cterm any
+---@field fg? Color foreground
+---@field bg? Color background
+---@field sp? Color special
+---@field blend? integer value between 0 and 100
+---@field bold? boolean
+---@field standout? boolean
+---@field underline? boolean
+---@field undercurl? boolean
+---@field underdouble? boolean
+---@field underdotted? boolean
+---@field underdashed? boolean
+---@field strikethrough? boolean
+---@field italic? boolean
+---@field reverse? boolean
+---@field nocombine? boolean
+---@field link? Highlight
+---@field default? any Don't override existing definition
+---@field ctermfg? any
+---@field ctermbg? any
+---@field cterm? any
 
 ---Get highlight definition map accepted by `nvim_set_hl`
 ---@param opts HighlightOpts
