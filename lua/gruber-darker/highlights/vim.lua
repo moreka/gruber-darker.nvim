@@ -22,7 +22,7 @@ M.highlights.color_column = Highlight.new("ColorColumn", { bg = c["bg+2"] })
 ---Placeholder characters substituted for concealed text (see 'conceallevel')
 M.highlights.conceal = Highlight.new("Conceal", { fg = c.fg, bg = c.bg })
 ---Character under the cursor
-M.highlights.cursor = Highlight.new("Cursor", { bg = c.yellow })
+M.highlights.cursor = Highlight.new("Cursor", { fg = c["bg"], bg = c.yellow })
 ---The character under the cursor when |language-mapping| is used (see 'guicursor')
 M.highlights.l_cursor = Highlight.new("lCursor", { fg = c.none, bg = c.yellow })
 ---Like Cursor, but used when in IME mode |CursorIM|
