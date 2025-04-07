@@ -216,6 +216,7 @@ M.highlights.tag_delimiter = Highlight.new("@tag.delimiter", { link = vim_hl.del
 -- Others
 
 M.highlights.python_docstring = Highlight.new("@string.documentation.python", { fg = c.mygray, italic = true })
+M.highlights.lua_documentation = Highlight.new("@comment.documentation.lua", { fg = c.mygray, italic = true })
 M.highlights.neorg_title = Highlight.new("@neorg.headings.1.title.norg", { link = M.highlights.text_title })
 
 return M

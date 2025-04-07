@@ -29,23 +29,7 @@ M.highlights.diagnostic_hint = Highlight.new("DiagnosticHint", { link = gruber_h
 M.highlights.diagnostic_sign_hint = Highlight.new("DiagnosticSignHint", { link = gruber_hl.wisteria_sign })
 M.highlights.diagnostic_underline_hint =
 	Highlight.new("DiagnosticUnderlineHint", { link = gruber_hl.wisteria_underline })
-
-M.highlights.diagnostic_unnecessary = Highlight.new("DiagnosticUnnecessary", { link = M.highlights.diagnostic_underline_hint })
-
--- M.highlights.lsp_type_class = Highlight.new("@lsp.type.class", {})
--- M.highlights.lsp_type_decorator = Highlight.new("@lsp.type.decorator", {})
--- M.highlights.lsp_type_enum = Highlight.new("@lsp.type.enum", {})
--- M.highlights.lsp_type_enum_member = Highlight.new("@lsp.type.enumMember", {})
--- M.highlights.lsp_type_function = Highlight.new("@lsp.type.function", {})
--- M.highlights.lsp_type_interface = Highlight.new("@lsp.type.interface", {})
--- M.highlights.lsp_type_macro = Highlight.new("@lsp.type.macro", {})
--- M.highlights.lsp_type_method = Highlight.new("@lsp.type.method", {})
--- M.highlights.lsp_type_namespace = Highlight.new("@lsp.type.namespace", {})
--- M.highlights.lsp_type_parameter = Highlight.new("@lsp.type.parameter", {})
--- M.highlights.lsp_type_property = Highlight.new("@lsp.type.property", {})
--- M.highlights.lsp_type_struct = Highlight.new("@lsp.type.struct", {})
--- M.highlights.lsp_type_type = Highlight.new("@lsp.type.type", {})
--- M.highlights.lsp_type_type_parameter = Highlight.new("@lsp.type.typeParameter", {})
--- M.highlights.lsp_type_variable = Highlight.new("@lsp.type.variable", {})
+M.highlights.diagnostic_unnecessary =
+	Highlight.new("DiagnosticUnnecessary", { link = M.highlights.diagnostic_underline_hint })
 
 return M

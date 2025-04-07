@@ -21,7 +21,6 @@ function M.setup()
 	for _, provider in ipairs(providers) do
 		provider:setup()
 	end
-	vim.opt.guicursor:append("a:Cursor/lCursor")
 end
 
 return M
