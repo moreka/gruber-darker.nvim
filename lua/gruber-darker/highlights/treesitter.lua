@@ -139,7 +139,7 @@ M.highlights.attribute = Highlight.new("@attribute", { link = gruber_hl.brown })
 ---object and struct fields
 M.highlights.field = Highlight.new("@field", { link = gruber_hl.niagara })
 ---similar to `@field`
-M.highlights.property = Highlight.new("@property", { link = gruber_hl.dark_niagara })
+M.highlights.property = Highlight.new("@property", { link = gruber_hl.niagara })
 
 -- Identifiers
 
